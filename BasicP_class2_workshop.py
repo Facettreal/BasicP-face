@@ -1,9 +1,9 @@
 text = (input ('ต้องการส่งหรือไม่: '))
 if text == 'N' :
-    print('ไม่ถูกจัดส่ง')
-
+    print('ไม่สำเร็จ')
 elif text == 'Y':
-    km = int(input ('โปรดระบุระยะทาง: '))
+    print("สำเร็จ")
+    km = float(input ('โปรดระบุระยะทาง: '))
     if km <= 5 :
         print('ไม่สามารถส่งได้')
     elif km <= 50 :
