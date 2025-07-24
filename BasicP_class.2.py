@@ -21,7 +21,7 @@
 # else :
 #     print ('you die')
 level = input ("ระบุระยะทาง: ")
-if level <= 5 '10 ' :
+if level <= '10' :
     print ("you are level 1")
 elif (level == '2') :
         print ('you are level 2')

@@ -67,15 +67,15 @@
 #         print(enter_num)
 
 
-# while True :
-#     num = input("Select 1,2: ")
-#     if num == '1' :
-#         print ('try again')
-#     elif num == '2' :
-#         break
-#     else :
-#         print('NO VALID')
-#         break
+while True :
+    num = input("Select 1,2: ")
+    if num == '1' :
+        print ('try again')
+    elif num == '2' :
+        break
+    else :
+        print('NO VALID')
+        break
 
 
 
